@@ -17,7 +17,7 @@ static login(){
         if(accPass == realPWD){
             localStorage.setItem('accountNO', accNo)
             alert("Welcome Back to E-BANK");
-            window.location.href = "./userDetails.html";
+            window.location.href = "userDetails.html";
         }
         else{
             alert("Incorrect password");
