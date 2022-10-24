@@ -19,6 +19,9 @@ section{
   z-index: -1;
 }
 @media screen and (max-width: 768px){
+  .shape{
+  width:100%;
+  }
   .recipie h1{
     margin-top: 150px;
   }
